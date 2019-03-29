@@ -2,7 +2,7 @@
 
 # ToolsRus
 
-![alt text](https://i.imgur.com/qjX6eGI.jpg)
+![alt text](https://i.imgur.com/fAFiFoI.png)
 ![alt text]()
 
 **Source:** Created by tryhackme (ben) on TryHackMe
