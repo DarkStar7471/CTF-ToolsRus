@@ -43,6 +43,10 @@
   - ![alt text](https://i.imgur.com/LkuYKav.png)
 - Here's those files found by nikto as well!
   - ![alt text](https://i.imgur.com/h1GM3K3.png)
+- Let's go ahead and run an additional credentialed scan on this system to see if we can locate any additional components running on this system
+  - ![alt text](https://i.imgur.com/htdRLy3.jpg)
+  - ![alt text](https://i.imgur.com/zLlgHHl.jpg)
+    - *It's worth nothing this scan can take a while to run, take stock of my total scan time on my results*
 - After looking around in this application, reviewing our service versions from our nmap scan, and doing a little research online we can find that this version of Apache Tomcat is pretty oudated and has a lovely vulnerability we can exploit to get a shell
   - Link to exploit notes: https://charlesreid1.com/wiki/Metasploitable/Apache/Tomcat_and_Coyote
 - We'll go ahead and start up metasploit and use the following exploit package. For a few more details on this exploit, check out the aforementioned link above. 
